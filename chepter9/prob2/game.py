@@ -1,6 +1,4 @@
-# the game() in a program lets a user play a game and return the score as an integer.you need to read a file
-# highscore.txt which is either blank or contains the previous highscore. you need to write the program to update 
-# the highscore whenever the game() breaks the highscore.
+# the game() in a program lets a user play a game and return the score as an integer.you need to read a file highscore.txt which is either blank or contains the previous highscore. you need to write the program to update the highscore whenever the game() breaks the highscore.
 import random
 
 def game():
@@ -10,7 +8,7 @@ def game():
     with open("highscore.txt", "r") as f:
         hiscore = f.read()
         if hiscore != "":
-           hiscore = int(hiscore)
+           hiscore = int(hiscore)  #convert to integer
         else:
             hiscore = 0
 

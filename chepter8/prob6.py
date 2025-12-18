@@ -1,21 +1,14 @@
-# wap to remove words from a list and strip them at the same time using function
+# WAP to remove a word from a list and strip that word from the remaining items
 
 l = ["karan", "kamal", "frana", "arohita", "parmeet", "al"]
 
 def rem(l, word):
- for item in l:
-    l.remove(word)
-    return l
-
-print(rem(l, "al"))
-
-# or
-
-def rem(l,word):
-    n = []         # new list
+    new_list = []                     # new list to store final result
     for item in l:
-        if item != word:
-            n.append(item.strip(word))
-    return n
-print(rem(l, "al"))
+        if item == word:              # if item is exactly the word to remove
+            continue                  # skip it (do not add in new list)
+        cleaned = item.replace(word, "")   # remove word from inside the item
+        new_list.append(cleaned)      # add cleaned item to new list
+    return new_list
 
+print(rem(l, "al"))

@@ -21,7 +21,7 @@ def factorial(num):
     if(num == 1 or num ==0):
         return 1
     else:
-        return num * factorial(num-1)          # recursive call or recursion
+        return num * factorial(num-1)          # recursive call or recursion    5 * 4x3x2x1
 print(f"factorial of {num} is {factorial(num)}")
 
 

@@ -20,7 +20,7 @@ print(2 in myvalue)
 
 
 x = ("apple", "banana", "cherry")
-y = list(x)                               # first tuple convert in list and then changable or mutable
+y = list(x)                         # first tuple convert in list and then changable or mutable
 y[1] = "kiwi"
 x = tuple(y)
 

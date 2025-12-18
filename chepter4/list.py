@@ -5,9 +5,9 @@ print(list[1])
 
 print(len(list))
 print(type(list))
-print((list))       #constructor used and print list type
+print((list))       #constructor used and print list type [ ]
 print((list,))    #tuple  it shows ([ ])
-print((list1))    # it shows set
+print((list1))    # it shows set { }
 
 
 

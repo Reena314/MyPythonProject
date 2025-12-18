@@ -1,4 +1,4 @@
-# wap to conver inches to centimeter using function
+# wap to convert inches to centimeter using function
 
 def inches_to_cm(inches):
     return inches * 2.54    # 1 inch = 2.54 cm

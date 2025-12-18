@@ -28,7 +28,7 @@ _my_var = "John"
 myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
-
+_myvar = "johny"
 
 print(myvar)
 print(my_var)
@@ -36,3 +36,4 @@ print(_my_var)
 print(myVar)
 print(MYVAR)
 print(myvar2)
+print(_myvar)

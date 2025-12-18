@@ -9,7 +9,7 @@ print("good afternoon " +  name1)
 
 name = "kiran sharma"
 
-print("good afternoon {name}") # print {name} because f string is not use
+print("good afternoon {name}") # print {name} as it is because f string is not use
 
 print(f"good afternoon {name}") # using f string
 print("good afternoon "+name+" ")  # old method
